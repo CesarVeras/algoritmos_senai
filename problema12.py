@@ -10,7 +10,7 @@ def main():
     elif (media >= 65 and media <= 84):
         print("Média boa.")
     elif (media >= 85 and media <= 100):
-        print("Médiia ótima.")
+        print("Média ótima.")
     else:
         print("Nota inválida.")
 
