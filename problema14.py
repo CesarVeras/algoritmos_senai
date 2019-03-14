@@ -3,13 +3,13 @@ def main():
     tipo = input("Informe o tipo do seu carro: ")
     percurso = float(input("Informe o percurso em quilômetros: "))
 
-    if (tipo == 'a' or tipo == 'A'):
+    if (tipo.lower() == 'a'):
         consumo = percurso / 12
         print("Seu consumo foi de %.2f litro(s)" % (consumo))
-    elif (tipo == 'b' or tipo == 'B'): 
+    elif (tipo.lower() == 'b'): 
         consumo = percurso / 9
         print("Seu consumo foi de %.2f litro(s)" % (consumo))
-    elif (tipo == 'c' or tipo == 'C'):
+    elif (tipo.lower() == 'c'):
         consumo = percurso / 8
         print("Seu consumo foi de %.2f litro(s)" % (consumo))
     else:
