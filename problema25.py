@@ -6,8 +6,8 @@ def main():
 		print(i)
 		soma += i	
 	media = soma / 150.0
-	print("A soma dos número de 1 a 150 é %.2f" % soma)
-	print("A média dos número de 1 a 150 é %.2f" % media)
+	print("A soma dos número de 1 a 150 é %.1f" % soma)
+	print("A média dos número de 1 a 150 é %.1f" % media)
 
 
 if __name__ == "__main__":
