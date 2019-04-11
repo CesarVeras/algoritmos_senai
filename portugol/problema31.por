@@ -6,7 +6,8 @@ programa
 		real distancia, minutos, velocidadeMedia
 		escreva("Bem vind@ ao sistema de calculo de velocidade média.\n")
 		
-		escreva("Informe a distância da viagem (em km): ")
+		
+		escreva("Informe a distância da viagem (em km): ")
 		leia(distancia)
 
 		escreva("Informe o tempo da viagem (em minutos): ")
