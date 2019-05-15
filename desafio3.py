@@ -1,6 +1,5 @@
 quantidade_pessoas = 6
-# entradas = [''] * quantidade_pessoas
-entradas = ['Programador', 'Professor', 'Treinador', 'Lutador', 'Professor', 'Jornalista']
+entradas = [''] * quantidade_pessoas
 profissoes = [''] * quantidade_pessoas
 quantidade_profissoes = [0] * quantidade_pessoas
 
@@ -47,7 +46,7 @@ def exibir_saida():
 def main():
   print('Bem vindo(a) ao sistema!')
 
-  # ler_dados()
+  ler_dados()
   processar_dados()
   exibir_saida()
 
